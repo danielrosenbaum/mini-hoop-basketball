@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C4C0D651E775F66008BD344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4C0D641E775F66008BD344 /* AppDelegate.swift */; };
+		5C4C0D671E775F66008BD344 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5C4C0D661E775F66008BD344 /* GameScene.sks */; };
+		5C4C0D691E775F66008BD344 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5C4C0D681E775F66008BD344 /* Actions.sks */; };
+		5C4C0D6B1E775F66008BD344 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4C0D6A1E775F66008BD344 /* GameScene.swift */; };
+		5C4C0D6D1E775F66008BD344 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4C0D6C1E775F66008BD344 /* GameViewController.swift */; };
+		5C4C0D701E775F66008BD344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4C0D6E1E775F66008BD344 /* Main.storyboard */; };
+		5C4C0D721E775F66008BD344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4C0D711E775F66008BD344 /* Assets.xcassets */; };
+		5C4C0D751E775F66008BD344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4C0D731E775F66008BD344 /* LaunchScreen.storyboard */; };
+		5C4C0D801E775F66008BD344 /* Mini_Hoop_BasketballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4C0D7F1E775F66008BD344 /* Mini_Hoop_BasketballTests.swift */; };
+		5C4C0D8B1E775F66008BD344 /* Mini_Hoop_BasketballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4C0D8A1E775F66008BD344 /* Mini_Hoop_BasketballUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C4C0D7C1E775F66008BD344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4C0D591E775F65008BD344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C4C0D601E775F65008BD344;
+			remoteInfo = "Mini Hoop Basketball";
+		};
+		5C4C0D871E775F66008BD344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4C0D591E775F65008BD344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C4C0D601E775F65008BD344;
+			remoteInfo = "Mini Hoop Basketball";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C4C0D611E775F66008BD344 /* Mini Hoop Basketball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Hoop Basketball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4C0D641E775F66008BD344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C4C0D661E775F66008BD344 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		5C4C0D681E775F66008BD344 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		5C4C0D6A1E775F66008BD344 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5C4C0D6C1E775F66008BD344 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5C4C0D6F1E775F66008BD344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C4C0D711E775F66008BD344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C4C0D741E775F66008BD344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C4C0D761E775F66008BD344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4C0D7B1E775F66008BD344 /* Mini Hoop BasketballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mini Hoop BasketballTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4C0D7F1E775F66008BD344 /* Mini_Hoop_BasketballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mini_Hoop_BasketballTests.swift; sourceTree = "<group>"; };
+		5C4C0D811E775F66008BD344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4C0D861E775F66008BD344 /* Mini Hoop BasketballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mini Hoop BasketballUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4C0D8A1E775F66008BD344 /* Mini_Hoop_BasketballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mini_Hoop_BasketballUITests.swift; sourceTree = "<group>"; };
+		5C4C0D8C1E775F66008BD344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C4C0D5E1E775F65008BD344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4C0D781E775F66008BD344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4C0D831E775F66008BD344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C4C0D581E775F65008BD344 = {
+			isa = PBXGroup;
+			children = (
+				5C4C0D631E775F66008BD344 /* Mini Hoop Basketball */,
+				5C4C0D7E1E775F66008BD344 /* Mini Hoop BasketballTests */,
+				5C4C0D891E775F66008BD344 /* Mini Hoop BasketballUITests */,
+				5C4C0D621E775F66008BD344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C4C0D621E775F66008BD344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4C0D611E775F66008BD344 /* Mini Hoop Basketball.app */,
+				5C4C0D7B1E775F66008BD344 /* Mini Hoop BasketballTests.xctest */,
+				5C4C0D861E775F66008BD344 /* Mini Hoop BasketballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C4C0D631E775F66008BD344 /* Mini Hoop Basketball */ = {
+			isa = PBXGroup;
+			children = (
+				5C4C0D641E775F66008BD344 /* AppDelegate.swift */,
+				5C4C0D661E775F66008BD344 /* GameScene.sks */,
+				5C4C0D681E775F66008BD344 /* Actions.sks */,
+				5C4C0D6A1E775F66008BD344 /* GameScene.swift */,
+				5C4C0D6C1E775F66008BD344 /* GameViewController.swift */,
+				5C4C0D6E1E775F66008BD344 /* Main.storyboard */,
+				5C4C0D711E775F66008BD344 /* Assets.xcassets */,
+				5C4C0D731E775F66008BD344 /* LaunchScreen.storyboard */,
+				5C4C0D761E775F66008BD344 /* Info.plist */,
+			);
+			path = "Mini Hoop Basketball";
+			sourceTree = "<group>";
+		};
+		5C4C0D7E1E775F66008BD344 /* Mini Hoop BasketballTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C4C0D7F1E775F66008BD344 /* Mini_Hoop_BasketballTests.swift */,
+				5C4C0D811E775F66008BD344 /* Info.plist */,
+			);
+			path = "Mini Hoop BasketballTests";
+			sourceTree = "<group>";
+		};
+		5C4C0D891E775F66008BD344 /* Mini Hoop BasketballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C4C0D8A1E775F66008BD344 /* Mini_Hoop_BasketballUITests.swift */,
+				5C4C0D8C1E775F66008BD344 /* Info.plist */,
+			);
+			path = "Mini Hoop BasketballUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C4C0D601E775F65008BD344 /* Mini Hoop Basketball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C4C0D8F1E775F66008BD344 /* Build configuration list for PBXNativeTarget "Mini Hoop Basketball" */;
+			buildPhases = (
+				5C4C0D5D1E775F65008BD344 /* Sources */,
+				5C4C0D5E1E775F65008BD344 /* Frameworks */,
+				5C4C0D5F1E775F65008BD344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mini Hoop Basketball";
+			productName = "Mini Hoop Basketball";
+			productReference = 5C4C0D611E775F66008BD344 /* Mini Hoop Basketball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C4C0D7A1E775F66008BD344 /* Mini Hoop BasketballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C4C0D921E775F66008BD344 /* Build configuration list for PBXNativeTarget "Mini Hoop BasketballTests" */;
+			buildPhases = (
+				5C4C0D771E775F66008BD344 /* Sources */,
+				5C4C0D781E775F66008BD344 /* Frameworks */,
+				5C4C0D791E775F66008BD344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C4C0D7D1E775F66008BD344 /* PBXTargetDependency */,
+			);
+			name = "Mini Hoop BasketballTests";
+			productName = "Mini Hoop BasketballTests";
+			productReference = 5C4C0D7B1E775F66008BD344 /* Mini Hoop BasketballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C4C0D851E775F66008BD344 /* Mini Hoop BasketballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C4C0D951E775F66008BD344 /* Build configuration list for PBXNativeTarget "Mini Hoop BasketballUITests" */;
+			buildPhases = (
+				5C4C0D821E775F66008BD344 /* Sources */,
+				5C4C0D831E775F66008BD344 /* Frameworks */,
+				5C4C0D841E775F66008BD344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C4C0D881E775F66008BD344 /* PBXTargetDependency */,
+			);
+			name = "Mini Hoop BasketballUITests";
+			productName = "Mini Hoop BasketballUITests";
+			productReference = 5C4C0D861E775F66008BD344 /* Mini Hoop BasketballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C4C0D591E775F65008BD344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Darnell Designs";
+				TargetAttributes = {
+					5C4C0D601E775F65008BD344 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2KMJAM4YKA;
+						ProvisioningStyle = Automatic;
+					};
+					5C4C0D7A1E775F66008BD344 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2KMJAM4YKA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C4C0D601E775F65008BD344;
+					};
+					5C4C0D851E775F66008BD344 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2KMJAM4YKA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C4C0D601E775F65008BD344;
+					};
+				};
+			};
+			buildConfigurationList = 5C4C0D5C1E775F65008BD344 /* Build configuration list for PBXProject "Mini Hoop Basketball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C4C0D581E775F65008BD344;
+			productRefGroup = 5C4C0D621E775F66008BD344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C4C0D601E775F65008BD344 /* Mini Hoop Basketball */,
+				5C4C0D7A1E775F66008BD344 /* Mini Hoop BasketballTests */,
+				5C4C0D851E775F66008BD344 /* Mini Hoop BasketballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C4C0D5F1E775F65008BD344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4C0D701E775F66008BD344 /* Main.storyboard in Resources */,
+				5C4C0D671E775F66008BD344 /* GameScene.sks in Resources */,
+				5C4C0D721E775F66008BD344 /* Assets.xcassets in Resources */,
+				5C4C0D751E775F66008BD344 /* LaunchScreen.storyboard in Resources */,
+				5C4C0D691E775F66008BD344 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4C0D791E775F66008BD344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4C0D841E775F66008BD344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C4C0D5D1E775F65008BD344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4C0D6B1E775F66008BD344 /* GameScene.swift in Sources */,
+				5C4C0D6D1E775F66008BD344 /* GameViewController.swift in Sources */,
+				5C4C0D651E775F66008BD344 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4C0D771E775F66008BD344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4C0D801E775F66008BD344 /* Mini_Hoop_BasketballTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4C0D821E775F66008BD344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4C0D8B1E775F66008BD344 /* Mini_Hoop_BasketballUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C4C0D7D1E775F66008BD344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C4C0D601E775F65008BD344 /* Mini Hoop Basketball */;
+			targetProxy = 5C4C0D7C1E775F66008BD344 /* PBXContainerItemProxy */;
+		};
+		5C4C0D881E775F66008BD344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C4C0D601E775F65008BD344 /* Mini Hoop Basketball */;
+			targetProxy = 5C4C0D871E775F66008BD344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C4C0D6E1E775F66008BD344 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C4C0D6F1E775F66008BD344 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C4C0D731E775F66008BD344 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C4C0D741E775F66008BD344 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C4C0D8D1E775F66008BD344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C4C0D8E1E775F66008BD344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C4C0D901E775F66008BD344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2KMJAM4YKA;
+				INFOPLIST_FILE = "Mini Hoop Basketball/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darnelldesigns.Mini-Hoop-Basketball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5C4C0D911E775F66008BD344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2KMJAM4YKA;
+				INFOPLIST_FILE = "Mini Hoop Basketball/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darnelldesigns.Mini-Hoop-Basketball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5C4C0D931E775F66008BD344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2KMJAM4YKA;
+				INFOPLIST_FILE = "Mini Hoop BasketballTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darnelldesigns.Mini-Hoop-BasketballTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mini Hoop Basketball.app/Mini Hoop Basketball";
+			};
+			name = Debug;
+		};
+		5C4C0D941E775F66008BD344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2KMJAM4YKA;
+				INFOPLIST_FILE = "Mini Hoop BasketballTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darnelldesigns.Mini-Hoop-BasketballTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mini Hoop Basketball.app/Mini Hoop Basketball";
+			};
+			name = Release;
+		};
+		5C4C0D961E775F66008BD344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2KMJAM4YKA;
+				INFOPLIST_FILE = "Mini Hoop BasketballUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darnelldesigns.Mini-Hoop-BasketballUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mini Hoop Basketball";
+			};
+			name = Debug;
+		};
+		5C4C0D971E775F66008BD344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2KMJAM4YKA;
+				INFOPLIST_FILE = "Mini Hoop BasketballUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darnelldesigns.Mini-Hoop-BasketballUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mini Hoop Basketball";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C4C0D5C1E775F65008BD344 /* Build configuration list for PBXProject "Mini Hoop Basketball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4C0D8D1E775F66008BD344 /* Debug */,
+				5C4C0D8E1E775F66008BD344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C4C0D8F1E775F66008BD344 /* Build configuration list for PBXNativeTarget "Mini Hoop Basketball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4C0D901E775F66008BD344 /* Debug */,
+				5C4C0D911E775F66008BD344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C4C0D921E775F66008BD344 /* Build configuration list for PBXNativeTarget "Mini Hoop BasketballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4C0D931E775F66008BD344 /* Debug */,
+				5C4C0D941E775F66008BD344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C4C0D951E775F66008BD344 /* Build configuration list for PBXNativeTarget "Mini Hoop BasketballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4C0D961E775F66008BD344 /* Debug */,
+				5C4C0D971E775F66008BD344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C4C0D591E775F65008BD344 /* Project object */;
+}
